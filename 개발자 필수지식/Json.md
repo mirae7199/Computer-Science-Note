@@ -23,9 +23,9 @@ import json
 with open('Json_data.json', 'r') as f:<br>
  data = json.load(f) # json 파일 파이썬 dit 객체로 변환하기
 <br><br>
-print(data["name"])<br>
-print(data["age"])<br>
-print(data["city"])
+print(data["name"]) # mriae<br> 
+print(data["age"]) # 23<br>
+print(data["city"] # Seoul)
 <br><br>
 
 <h2>Json 타입</h2>
@@ -50,9 +50,9 @@ javascript object와 유사하지만 undefined, 메서드등을 포함할 수 �
 객체 ==> 문자열 -JSON.stringify() 직렬화
 
 <h2>JSON의 활용</h2>
-JSON은 프로그래밍 언와 프레임워크 등에 독립적이므로, 서로 다른 시스템간에 데이터를 교환하기에 좋다.<br>
+JSON은 프로그래밍 언어와 프레임워크 등에 독립적이므로, 서로 다른 시스템간에 데이터를 교환하기에 좋다.<br>
 주로 API의 반환형태, 시스템을 구성하는 설정파일에 활용된다.<br>
-  <blockquote>요즘에는 API에 XML보다 JSON이 더 많이 쓰이고 설정파일에 XML이 많이 쓰인다..</blockquote>
+  <blockquote>요즘에는 API에 XML보다 주로 JSON이 더 많이 쓰이고 설정파일에 XML이 쓰인다..</blockquote>
  
 
 
